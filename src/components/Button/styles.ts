@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
-import { ButtonProps } from './props'
-
-export const Button = styled.button<ButtonProps>`
+export const Button = styled.button`
   background-color: ${({ theme }) => theme.colors.primary.main};
   border: none;
   color: ${({ theme }) => theme.colors.common.white};

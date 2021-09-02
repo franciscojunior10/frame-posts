@@ -1,12 +1,18 @@
-import { FC } from 'react'
+import { FC, useCallback } from 'react'
+import { useHistory } from 'react-router-dom'
 
 import ImageEbook from 'assets/ebook.png'
 import { Button } from 'components/Button'
 import { TabName } from 'components/TabName'
+import { RoutingPath } from 'utils/routing'
 
 import * as Styled from './styles'
 
 const Home: FC = () => {
+  const { push } = useHistory()
+
+  const handlePushPagePosts = useCallback(() => push(RoutingPath.POSTS), [push])
+
   return (
     <TabName tabName="início">
       <Styled.Container>
@@ -17,7 +23,7 @@ const Home: FC = () => {
             mais.
           </h1>
           <h3>Tudo isso sem pagar mensalidade</h3>
-          <Button>ACESSAR</Button>
+          <Button onClick={handlePushPagePosts}>ACESSAR</Button>
         </Styled.ContentText>
         <Styled.ContentImageEbook>
           <img src={ImageEbook} alt="Imagem Ebook" />

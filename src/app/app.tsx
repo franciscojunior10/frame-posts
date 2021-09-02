@@ -1,5 +1,6 @@
 import { FC, Fragment } from 'react'
 
+import { AppProvider } from 'hooks'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from 'styles'
 import { theme } from 'styles/theme'
@@ -11,7 +12,9 @@ const App: FC = () => {
     <Fragment>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Routes />
+        <AppProvider>
+          <Routes />
+        </AppProvider>
       </ThemeProvider>
     </Fragment>
   )
