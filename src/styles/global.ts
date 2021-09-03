@@ -19,5 +19,20 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  *::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    box-shadow: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.2);
+    outline: none;
+    border-radius: 10px;
+  }
 `
 export { GlobalStyles }

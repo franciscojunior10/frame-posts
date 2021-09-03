@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const PostsContainer = styled.div`
+export const TodosContainer = styled.div`
   h2 {
     font-size: 24px;
     font-weight: 600;

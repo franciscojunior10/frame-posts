@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.main`
-  width: 100vw;
-  height: 100vh;
-  max-height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   flex-direction: column;
@@ -20,5 +17,5 @@ export const TitlePage = styled.h3`
   font-size: 29px;
   font-weight: 700;
   color: ${({ theme }) => theme.colors.primary.main};
-  margin: 25px 0;
+  margin: 90px 0 25px 0;
 `

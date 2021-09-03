@@ -31,7 +31,7 @@ const RightMenu: FC<RightMenuProps> = memo(props => {
       </Styled.RightMenuItems>
       <Styled.RightMenuItems
         to={RoutingPath.ALBUMS}
-        active={RoutingPath.HOME === pathname}
+        active={RoutingPath.ALBUMS === pathname}
         onClick={() => toggle()}
       >
         álbuns
