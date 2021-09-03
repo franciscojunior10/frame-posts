@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="https://user-images.githubusercontent.com/33940202/132005220-8670cba7-3efe-40fb-bf85-b0c9b71dc958.png" width="200px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/franciscojunior10/frame-posts?color=%5965E0">
 
-## Available Scripts
+  <a href="https://www.linkedin.com/in/franciscojunior10/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-franciscojunior10-%5965E0">
+  </a>
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/franciscojunior10/frame-posts?color=%5965E0">
 
-### `yarn start`
+  <a href="https://github.com/franciscojunior10/frame-posts/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/franciscojunior10/frame-posts?color=%5965E0">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/franciscojunior10/frame-posts/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/franciscojunior10/frame-posts?color=%5965E0">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   <a href="https://github.com/franciscojunior10/frame-posts/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/franciscojunior10/frame-posts?color=%5965E0">
+  </a>
+</p>
 
-### `yarn test`
+<p align="center">
+  <a href="#about-the-project-open_file_folder">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#getting-started-desktop_computer">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#author-man_technologist">Author</a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img alt="Gif" src="https://user-images.githubusercontent.com/33940202/132005885-3e5d0fdf-a042-4f50-b9c5-6f09c0864087.gif" />
+</p>
 
-### `yarn build`
+## About the project :open_file_folder::
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frame.posts is a web application to list posts, albums and all, without paying a monthly fee.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The layout is available at [Figma](https://www.figma.com/file/PZVjvhBGoNMRWtGAjQavNA/frame.posts?node-id=0%3A1).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+API is available at this [Link](https://jsonplaceholder.typicode.com/).
 
-### `yarn eject`
+## Getting started :desktop_computer::
+**Clone the project and access the folder**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ https://github.com/franciscojunior10/frame-posts.git && cd frame-posts
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Follow the steps below**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Install the dependencies
+$ yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Start the client
+$ yarn start
 
-## Learn More
+# Browser access
+$ http://localhost:3000/
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author :man_technologist::
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with :heart: by **franciscojunior10** my :point_right: [Linkedin](https://www.linkedin.com/in/franciscojunior10/)
