@@ -26,7 +26,7 @@ const Home: FC = () => {
           <Button onClick={handlePushPagePosts}>ACESSAR</Button>
         </Styled.ContentText>
         <Styled.ContentImageEbook>
-          <img src={ImageEbook} alt="Imagem Ebook" />
+          <img src={ImageEbook} alt="Imagem ebook" />
         </Styled.ContentImageEbook>
       </Styled.Container>
     </TabName>

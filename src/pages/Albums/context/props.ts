@@ -5,7 +5,13 @@ export interface AlbumsProps {
 }
 
 export interface AlbumsListContextData {
+  /**
+   * Method to fetch albums
+   */
   getAlbumsList(): Promise<void>
 
+  /**
+   * Variable containing the albums listing
+   */
   albums: AlbumsProps[]
 }

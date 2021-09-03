@@ -28,6 +28,7 @@ export const RightMenuContainer = styled.ul<RightMenuContainerProps>`
     align-items: flex-start;
     z-index: 10000;
     transition: transform 0.25s ease-in-out;
+    border-left: 1px solid #dbdbdb;
   }
 `
 

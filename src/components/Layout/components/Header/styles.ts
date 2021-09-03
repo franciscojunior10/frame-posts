@@ -11,6 +11,7 @@ export const HeaderContainer = styled.header`
   background-color: ${({ theme }) => theme.colors.common.white};
   position: fixed;
   height: 60px;
+  border-bottom: 1px solid #dbdbdb;
 `
 
 export const HeaderContent = styled.div`

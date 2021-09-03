@@ -6,7 +6,13 @@ export interface TodosProps {
 }
 
 export interface TodosListContextData {
+  /**
+   * Method to fetch todos
+   */
   getTodosList(): Promise<void>
 
+  /**
+   * Variable containing the todos listing
+   */
   todos: TodosProps[]
 }

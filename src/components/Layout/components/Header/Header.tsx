@@ -1,7 +1,7 @@
 import { FC, Fragment, memo } from 'react'
 import { Link } from 'react-router-dom'
 
-import Logo from 'assets/logo.svg'
+import ImageLogo from 'assets/logo.svg'
 import { RoutingPath } from 'utils/routing'
 
 import { BurguerMenu } from './BurguerMenu'
@@ -13,7 +13,7 @@ const Header: FC = memo(() => {
       <Styled.HeaderContainer>
         <Styled.HeaderContent>
           <Link to={RoutingPath.HOME}>
-            <img src={Logo} alt="Logo" />
+            <img src={ImageLogo} alt=" Imagem logo" />
           </Link>
           <BurguerMenu />
         </Styled.HeaderContent>
